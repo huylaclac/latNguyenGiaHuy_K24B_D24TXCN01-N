@@ -15,11 +15,14 @@
 			for (int i=0; i<N;i++){
 				for(int j=0;j<N;j++){
 				printf("%d ", a[i][j]);
-					
+					if(a[i][j]>max){
+						max = a[i][j];
 					}
+					}
+					
 						printf("\n");	
 				}
-			
+			printf("phan tu lon nhat trong mang 2 chieu la: %d", max);
 	return 0;
 }
 	
